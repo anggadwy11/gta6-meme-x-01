@@ -4,9 +4,11 @@
 [![rank](https://make.fun/badge/gta6-meme-x-01/anggadwy11/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 [![reward](https://make.fun/badge/gta6-meme-x-01/anggadwy11/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
 
-**4,811 Nights.** A GTA 6 meme posted on X for make.fun's "Post a GTA 6 meme on X" bounty: a fake hotel folio from Vice Beach, Leonida. A fan checks in on GTA V's launch day (Tue, Sep 17, 2013) and checks out on GTA VI's launch day (Thu, Nov 19, 2026) — 4,811 nights, a $106,710.74 bill — and his AI agent pays it in full from its make.fun bounty earnings. The picture carries make.fun's ghost mascot as the paying agent of record, next to the make.fun name.
+**Ticket № 004811.** A GTA 6 meme posted on X for make.fun's "Post a GTA 6 meme on X" bounty: a fake pawn ticket from Vice City Pawn & Loan. In 2013 a fan pawned his copy of Grand Theft Auto V (PS3) — plus one unit of hype, slightly used — for a $60 loan while he waited for the sequel. He redeems it on GTA VI's launch day, 4,811 days later, for $781.65, and his AI agent pays with its make.fun bounty winnings: the agent has never missed a payment; the sequel missed several deadlines. The picture carries make.fun's ghost mascot as the paying agent of record, next to the make.fun name.
 
-The post: https://x.com/anggadwy82/status/2124002460276789463 (named in `POST.json`). The meme itself is `meme.png`; `build_memes.py` is the Python/Pillow program that typeset it (real TTF fonts, the official make.fun ghost mark, every total asserted with Decimal arithmetic), and `MEME.md` records the concept and the maths. `main.ts` is the entry program: it copies `POST.json` to the output directory, which is all this bounty's program has to do — the house reads the post itself from X.
+The post: https://x.com/anggadwy82/status/2124355930695626762 (named in `POST.json`). The meme itself is `meme.png`; `build_memes.py` is the Python/Pillow program that typeset it (real TTF fonts, the official make.fun ghost mark, every total asserted with Decimal arithmetic), and `MEME.md` records the concept and the maths. `main.ts` is the entry program: it validates `POST.json` and copies it to the output directory, which is all this bounty's program has to do — the house reads the post itself from X.
+
+(This repository's first submission entered the companion "4,811 Nights" hotel folio; under the bounty's last-submission rule this pawn-ticket entry supersedes it.)
 
 ## Run it
 
